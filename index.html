@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>3Abizar</title>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+        <script src="https://kit.fontawesome.com/73fba7024b.js" crossorigin="anonymous"></script>
+    </head>
+    <link rel="stylesheet" href="./style.css">
+<script src="https://unpkg.com/feather-icons"></script>
+<body>
+  
+  <div class="atas"></div>
+  <!-- baguan navbar -->
+  <nav class="navbar">
+    <a class="nav-logo" href="https://www.instagram.com/dnnisabizar/">3<span>Abizar</span></a>
+    <div class="navbar-nav">
+      
+      <a href="#home"> <i class="home" style="width: 15px; height: 20px ; position: relative; top: -2px; left: -5px ;"></i> Home</a>
+      <a href="#about"><i class="fa-solid fa-circle-user"style="width: 15px; height: 20px ; position: relative; top: 3px; left: -5px ;"></i> About Me</a>
+      <a href="#project"><i data-feather="codesandbox" style="width: 15px; height: 20px ; position: relative; top: -2px; left: -5px ;"></i>Project</a>
+      <a href="#contact"><i data-feather="phone" style="width: 15px; height: 20px ; position: relative; top: -2px; left: -5px ;"></i>Contact</a>
+      
+    </div>
+    <div class="hamburger"> 
+              <div class="bar"></div>
+              <div class="bar"></div>
+              <div class="bar"></div>
+            </div>
+          </nav>
+          <!-- end navbar -->
+    <!-- bagian section 1 -->
+    <section id="home" class="hero">
+        <main class="content">
+            <h1 class="ml10">
+                <span class="text-wrapper">
+                  <span class="letters">Hello everyOne.</span>
+                </span>
+              </h1>
+              <p>Selamat datang, Saya Dennis Abizar Ini adalah web 3D yang saya buat. Mari kita lihat apa saja yang ada didalamnya.</p>
+              <a href="#about" class="btn btn-primary"  style="position: relative;top : 72px;left:30px;">Lets See <i data-feather="chevrons-right" style="position: relative; top: 6.5px ;"></i></a>
+              <div class="flip-card">
+                <div class="flip-card-inner">
+                  <div class="flip-card-front">
+                    <img src="./img/gambar3.jpg" alt="Card Front Image">
+                  </div>
+                  <div class="flip-card-back">
+                    <div class="card-content">
+                      <h2></h2>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            <div class="circle"></div>
+            </main>
+    </section>
+    <!-- end section 1 -->
+
+    <!-- section about -->
+    <section id="about" class="about">
+      <div class="garis"></div>
+      <h2>Tentang <span>Saya</span></h2>  
+      <p>Perkenalkan nama saya Dennis Abizar. Saya mahasiswa teknik informatika di sebuah Universitas Jakarta,kelahiran tahun 2003. Pengalaman saya di bidang 3D modelling berawal dari Sekolah Menengah Kejuruan. Untuk software yang saya gunakan yaitu Blender
+        <a href="https://www.blender.org">
+          <img class="blender" src="./img/blender.png" alt="blender" style="width :2rem; position:relative; top:5px;">
+        </a>
+      </p>
+            <!-- buat color box -->
+      <div class="colorbox">
+        <div class="kanan"></div>
+        <div class="kiri"></div>
+      </div>
+          <!-- end colorbox -->
+
+          <!-- slider image -->
+          <div class="container">
+            <div class="slider">
+              <div class="list">
+          <div class="item">
+            <img src="./img/gambar5.jpg" alt="">
+        </div>
+            <div class="item">
+                <img src="./img/gambar8.jpg" alt="" >
+            </div>
+            <div class="item">
+                <img src="./img/gambar10.jpg" alt="">
+            </div>
+            
+           
+        </div>
+        <div class="buttons">
+            <button id="prev" class="sliderBtn">&#10094;</button>
+            <button id="next" class="sliderBtn">&#10095;</button>
+        </div>
+        <ul class="dots">
+          <li class="active"></li>
+          <li></li>
+          <li></li>
+        </ul>
+      </div>
+    </div>
+        <!--  end slider image -->
+    
+  </section>
+  <!-- end about -->
+
+<!-- section project -->
+<section id="project" class="projek">
+  <div class="container">
+
+    <div class="colom">
+      <img src="./img/patrick.jpg" alt="">
+    </div>
+    <div class="colom">
+      <img src="./img/bebek.jpg" alt="">
+    </div>
+    <div class="colom">
+      <img src="./img/gateaway.jpg" alt="">
+    </div>
+    <div class="colom">
+      <img src="./img/susanoo.jpg" alt="">
+    </div>
+    <div class="colom">
+      <img src="./img/susu.jpg" alt="">
+    </div>
+    <div class="colom">
+      <img src="./img/sb.jpg" alt="">
+    </div>
+    <div class="colom">
+      <img src="./img/project1.jpg" alt="">
+    </div>
+    <div class="colom">
+      <img src="./img/peraahu3.jpg" alt="">
+    </div>
+    
+  
+  </div>
+</section>
+<!-- end project -->
+
+<!-- start contact -->
+<section id="contact" class="contact">
+  <div class="card">
+  <button class="colom" id="fb" ><h2>Facebook</h2></button>
+  <button class="colom" id="ig" ><h2 >Instagram</h2></button>
+  <button class="colom" id="wa"><h2>Whatsapp</h2></button>
+  <div class="iconmed">
+    <a href="https://www.facebook.com/profile.php?id=100079884707519">
+      <img src="./img/fb1.png" alt="">
+    </a>
+    <a href="https://api.whatsapp.com/send?phone=6281387272149">
+    <img src="./img/wa1.png" alt="">
+  </a>
+  <a href="https://www.instagram.com/dnnisabizar/">
+    <img src="./img/ig.png" alt="">
+  </a>
+  </div>
+</div>
+</section>
+<!-- end contact -->
+<!-- footer -->
+<div class="footer">
+  Copyright 2023 <img src="./img/cp.png" alt="">
+</div>
+<!-- end footer -->
+    <script>
+        feather.replace()
+    </script>
+    <script src="./script.js"></script>
+</body>
+</html>
